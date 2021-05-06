@@ -37,88 +37,52 @@ public class Sale {
         this.seller = seller;
     }
 
-    /**
-     * @return Long return the id
-     */
     public Long getId() {
         return id;
     }
 
-    /**
-     * @param id the id to set
-     */
     public void setId(Long id) {
         this.id = id;
     }
 
-    /**
-     * @return Integer return the visited
-     */
     public Integer getVisited() {
         return visited;
     }
 
-    /**
-     * @param visited the visited to set
-     */
     public void setVisited(Integer visited) {
         this.visited = visited;
     }
 
-    /**
-     * @return Integer return the deals
-     */
     public Integer getDeals() {
         return deals;
     }
 
-    /**
-     * @param deals the deals to set
-     */
     public void setDeals(Integer deals) {
         this.deals = deals;
     }
 
-    /**
-     * @return Double return the amount
-     */
     public Double getAmount() {
         return amount;
     }
 
-    /**
-     * @param amount the amount to set
-     */
     public void setAmount(Double amount) {
         this.amount = amount;
     }
 
-    /**
-     * @return LocalDate return the date
-     */
     public LocalDate getDate() {
         return date;
     }
 
-    /**
-     * @param date the date to set
-     */
     public void setDate(LocalDate date) {
         this.date = date;
     }
 
-    /**
-     * @return Seller return the seller
-     */
     public Seller getSeller() {
         return seller;
     }
 
-    /**
-     * @param seller the seller to set
-     */
     public void setSeller(Seller seller) {
         this.seller = seller;
     }
-
+    
 }
